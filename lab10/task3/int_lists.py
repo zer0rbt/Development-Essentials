@@ -1,6 +1,6 @@
-from random import randint, seed
+"""Four lists of random integers."""
 
-seed(42)
+from random import randint
 
 a: list[int] = [randint(1, 100) for _ in range(10)]
 b: list[int] = [randint(1, 100) for _ in range(10)]

@@ -1,4 +1,6 @@
-a, b, c = map(int, input("Enter 3 integers: ").split())
+"""Read three integers, sort them with three simple ifs and print them."""
+
+a, b, c = map(int, input().split())
 
 if a > b:
     a, b = b, a
